@@ -4,4 +4,4 @@ This repository contains competitive coding styles and techniques.
 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|       |             |                        |
+|  1    |      A01    | First banner page homework |
