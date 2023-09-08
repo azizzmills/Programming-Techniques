@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n, k;
+  while (cin >> n >> k) {
+    int total_cigarettes = n;
+
+    while (n >= k) {
+      int new_cigarettes = n / k;
+      total_cigarettes += new_cigarettes;
+      n = new_cigarettes + (n % k);
+    }
+
+    cout << total_cigarettes << endl;
+  }
+  return 0;
+}
