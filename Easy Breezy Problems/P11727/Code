@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int midnum(int x, int y, int z) {
+  int mid = 0;
+
+  if ((x >= y && x <= z) || (x <= y && x >= z))
+    mid = x;
+  else if ((y >= x && y <= z) || (y <= x && y >= z))
+    mid = y;
+  else
+    mid = z;
+
+  return mid;
+}
+
+int main() {
+  int testcase, sal1, sal2, sal3, count = 0, casenum = 1;
+  cin >> testcase;
+  while (count < testcase) {
+    cin >> sal1 >> sal2 >> sal3;
+    cout << "Case " << casenum << ": " << midnum(sal1, sal2, sal3) << endl;
+    count++;
+    casenum++;
+  }
+
+  return 0;
+}
