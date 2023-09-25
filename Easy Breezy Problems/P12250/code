@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  string speak;
+  int count = 1;
+  while (cin>>speak){
+    if (speak == "#"){
+      break;
+    }
+    else if (speak == "HELLO"){
+      cout<<"Case "<<count<<": "<<"ENGLISH"<<"\n";
+    }
+    else if (speak == "HOLA"){
+      cout<<"Case "<<count<<": "<<"SPANISH"<<"\n";
+    }
+    else if (speak == "HALLO"){
+      cout<<"Case "<<count<<": "<<"GERMAN"<<"\n";
+    }
+    else if (speak == "BONJOUR"){
+      cout<<"Case "<<count<<": "<<"FRENCH"<<"\n";
+    }
+    else if (speak == "CIAO"){
+      cout<<"Case "<<count<<": "<<"ITALIAN"<<"\n";
+    }
+    else if (speak == "ZDRAVSTVUJTE"){
+      cout<<"Case "<<count<<": "<<"RUSSIAN"<<"\n";
+    }
+    else if (speak == "#"){
+      break;
+    }
+    else {
+      cout<<"Case "<<count<<": "<<"UNKNOWN"<<"\n";
+    }
+    count++;
+  }
+  return 0;
+}
