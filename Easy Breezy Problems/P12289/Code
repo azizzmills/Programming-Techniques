@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  string entry = " ";
+  char letter1 ='t', letter2 ='w', letter3 = 'n', letter4 ='n';
+  int amount, count =0;
+  cin>>amount;
+
+  while (count<amount){
+    cin>>entry;
+    if (entry.length()>3){
+      cout<<3<<"\n";
+    }      
+    else if (entry.length()<=3){
+       for(char letter:entry){
+         if (letter == letter1){ 
+           cout<<2<<"\n";
+           break;
+         }
+         else if (letter == letter2){
+             cout<<2<<"\n";
+             break;
+           }         
+         else if (letter == letter3){
+           cout<<1<<"\n";
+           break;
+         }
+         else{
+           cout<<1<<"\n";
+           break;
+         }
+       }
+    }
+    count++;
+  }
+return 0;
+}
