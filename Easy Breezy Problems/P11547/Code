@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+  int test_case, number, answer, count = 0, tensPlace;
+  cin >> test_case;
+  while (count < test_case) {
+    cin >> number;
+    answer = (((((number * 567) / 9) + 7492) * 235) / 47) - 498;
+    tensPlace = (answer / 10) % 10;
+    cout << abs(tensPlace) << endl;
+    count++;
+    number = 0;
+  }
+  return 0;
+}
