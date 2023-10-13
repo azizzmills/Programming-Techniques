@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  string word;
+  int count = 1;
+  while (cin >> word) {
+    if (word == "*") {
+      break;
+    } else {
+      if (word == "Hajj") {
+        cout << "Case " << count << ": Hajj-e-Akbar" << endl;
+      } else {
+        cout << "Case " << count << ": Hajj-e-Asghar" << endl;
+      }
+    }
+    count++;
+  }
+  return 0;
+}
