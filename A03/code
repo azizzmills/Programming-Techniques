@@ -1,1 +1,13 @@
-jdbhbfd
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int hash_soldiers, enemy_soldiers;
+
+    while (cin >> hash_soldiers >> enemy_soldiers) {
+        cout << abs(hash_soldiers - enemy_soldiers) << endl;
+    }
+
+    return 0;
+}
