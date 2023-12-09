@@ -8,7 +8,7 @@
 |  4 | [P11547](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P11547) | Automatic Answer Problem |
 |  5 | [P11727](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P11727) | Cutting Cost Problem |
 |  6 | [P11777](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P11777) | Automatic Grading Problem |
-|  2 | [P11845](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P11845) | Egypt Problem |
-|  2 | [hey](hey) | hey |
-|  2 | [hey](hey) | hey |
-|  2 | [hey](hey) | hey |
+|  7 | [P11845](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P11845) | Egypt Problem |
+|  8 | [P12250](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P12250) | Langauge Detection Problem  |
+|  9 | [P12289](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P12289) | hey |
+|  10 | [P12577](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/Easy%20Breezy%20Problems/P12577) | Hajj-e-Akbar Problem |
