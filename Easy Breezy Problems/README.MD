@@ -2,4 +2,4 @@
 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|  1    |     [hey ]   | First banner page homework |
+|  1    |     [P10071](Easy Breezy Problems/P10071)   | First banner page homework |
