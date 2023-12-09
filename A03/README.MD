@@ -2,8 +2,8 @@
 ## Approach:
 The approach was simple. Write code that receives input and substracts the enemy soilders from that of the hashmat
 
-|   #   | Folder Link | Link Description |
+|   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
-|  1 | [Code](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A03/code) | Code |
+|  1 | [Main](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A03/code) | Main driver of my program which solves problem. |
 |  2 | [Input](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A03/input) | Input |
-|  1 | [PDF](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A03/p1005) | PDF File  |
+|  3 | [PDF](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A03/p1005) | Problem statement and guidelines  |
