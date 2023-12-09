@@ -1,4 +1,4 @@
-# this folder contains the solution for the Hashmat Brave Warrior Problem
+# This folder contains the solution for the Hashmat Brave Warrior Problem
 ## Approach:
 The approach was simple. Write code that receives input and substracts the enemy soilders from that of the hashmat
 
