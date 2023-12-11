@@ -1,6 +1,9 @@
 # This folder contains the solution for the Hardwood Species Problem
 ## Approach:
-The approach was simple. Write code that receives input and substracts the enemy soilders from that of the hashmat
+The point of this program was to count the amount of trees of each type and recive a percnet based on the overall amount. 
+To simplify a map was used to store and simultaneously count (while in the loop) the trees. When the file reaches its end it breaks out of the loop (atleast for the first test case) it then iterates through the map and prints out the results. 
+## Thoughs:
+It's a good program. It teaches students to utilze maps. 
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
