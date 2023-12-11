@@ -1,9 +1,8 @@
-# This folder contains the solution for the Hardwood Species Problem
+# This folder contains the solution for the Rails Problem
 ## Approach:
-The point of this program was to count the amount of trees of each type and recive a percnet based on the overall amount. 
-To simplify a map was used to store and simultaneously count (while in the loop) the trees. When the file reaches its end it breaks out of the loop (atleast for the first test case) it then iterates through the map and prints out the results. 
+The point of this program was to count the amount of trains entering and leaving a station in a specific order. The code is better explained in the comments of the code. There is first an orderin which the train cabs must come in. If a cab comes in and it is not the requiered cab, then it is placed on the stack until the required on comes along. It is then popped off. The queue is use for storeing the oder in which they leave. 
 ## Thoughs:
-It's a good program. It teaches students to utilze maps. 
+It's a good program for stacks and queues. But Jesus christ that thing is annoying. Would not recommend again.  
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
