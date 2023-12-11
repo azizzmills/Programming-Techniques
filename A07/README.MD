@@ -7,6 +7,6 @@ It's a good program. It teaches students to utilze maps.
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
-|  1 | [Main](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A06/code) | Main driver of my program which solves problem. |
-|  2 | [Input](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A06/input) | Input |
-|  3 | [PDF](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A06/p10226.pdf) | Problem statement and guidelines  |
+|  1 | [Main](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A07/code) | Main driver of my program which solves problem. |
+|  2 | [Input](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A07/input) | Input |
+|  3 | [PDF](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A07/p514.pdf) | Problem statement and guidelines  |
