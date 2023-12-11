@@ -1,1 +1,61 @@
-asvasd
+#include <stack>
+#include <queue>
+#include <iostream> 
+
+using namespace std;
+
+int main() {
+  
+    int train_amount;
+  // get the amount of trains 
+    while(cin>>train_amount){
+        int train;
+      // the incoming train number 
+        while(cin >> train){
+            stack<int> station;
+            queue<int> Incoming_Train_Order;
+          // put the train on the stack 
+            Incoming_Train_Order.push(train);
+
+            int Expected_Train_Order = 1;
+          // puts the rest of the trains on the stack
+            for(int count=1;count<train_amount;count++){
+                cin >> train; 
+                Incoming_Train_Order.push(train);
+            }
+          // if the trains dont come in the expected order
+          // we push unto the stack.
+          //
+          // Example: 5,3,4,1,2
+          //
+          // Lets say train number 4 comes in but we expect 5 the train 
+          // will be pushed unto the stack. Until the requiered train comes in.
+          //
+          // Finally when 5 comes in it is pushed on the stack. Then a check is
+          // to verify if it is on the top of the stack. 
+          // It is then pop off and placed in the queue (the train passed throught)
+          
+            while(Incoming_Train_Order.empty()==false){
+                if(station.empty() || station.top() != Incoming_Train_Order.front()){
+                    if(Expected_Train_Order > train_amount) break;
+                    station.push(Expected_Train_Order++);
+                  // the front and top of the stack are the same 
+                  // pop from the stack and queue. 
+                  // Basically the train just went through.
+                } else {
+                    Incoming_Train_Order.pop();
+                    station.pop();
+                }
+            }
+          if (Incoming_Train_Order.empty()){
+            cout << "Yes" << endl;
+          } 
+          else {
+            cout<< "No" << endl;
+          }
+          
+        }
+        cout << endl;
+    }
+  return 0;
+}
