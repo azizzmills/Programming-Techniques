@@ -1,1 +1,48 @@
-skjdbsd
+#include <iomanip>
+#include <iostream>
+#include <map>
+#include <string>
+
+using namespace std;
+
+int main() {
+
+  string tree_name;
+  map<string, double> trees;
+  double testCases, nextCase, totalTrees = 0;
+
+  cin >> testCases;
+  // reads in the empty space
+  getline(cin, tree_name);
+
+  do {
+
+    getline(cin, tree_name);
+
+    // if it the line is empty then either we have reached the end of
+    // a test case or input. Otherwise read as norma.
+    if (tree_name == "") {
+
+      nextCase++;
+
+      // Iterate through the map and print the trees and their percentages
+      for (auto print = trees.begin(); print != trees.end(); print++) {
+        cout << print->first << " " << setprecision(4) << fixed
+             << ((print->second) / totalTrees) * 100 << endl;
+      }
+      trees.clear();
+      if (nextCase != testCases) {
+        cout << endl;
+      }
+      totalTrees = 0;
+    }
+
+    else {
+      // Trees are read in the the total # of tress are incremented
+      trees[tree_name]++;
+      totalTrees++;
+    }
+  } while (nextCase < testCases);
+
+  return 0;
+}
