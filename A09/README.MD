@@ -19,9 +19,10 @@ eventually based on the node you are looking for all of them would be 0. For thi
 
 0 0 0 0
 
-0 0 0 0r
+0 0 0 0
 
 0 1 1 1
 
 If the neighbor is within the matrix bounds and has not been visited (DFS_WHITE), a recursive call to dfs is made with the new coordinates.
+
 The matrix is is iterated through the top, bottom and diagonal parts of the matrix (as described in the code comments).
