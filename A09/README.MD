@@ -1,3 +1,5 @@
+
+
 To solve this problem you msut first understand how the dfs function works. 
 The "dfs" function explaination:
 
@@ -29,4 +31,4 @@ If the neighbor is within the matrix bounds and has not been visited (DFS_WHITE)
 
 The matrix is is iterated through the top, bottom and diagonal parts of the matrix (as described in the code comments).
 
-To solve this problem the ones (1) in the image must not touch each other, or have any adject ones next to it. At that point it is considered a war eagle. 
+To solve the Seasonal War problem the ones (1) in the image must not touch each other, or have any adject ones next to it. At that point it is considered a war eagle. 
