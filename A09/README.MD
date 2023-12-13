@@ -1,5 +1,6 @@
-dfs explaination 
-After readGraph has read in the input. dfs details with the matrix. 
+The "dfs" function explaination:
+
+After "readGraph" function has read in the input. dfs deals with the matrix. 
 After matrix is made, the index for matrix array is checked to verify a "node" has been visited (0) or not (1). 
 For example:
 
