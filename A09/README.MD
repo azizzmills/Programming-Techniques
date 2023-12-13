@@ -34,7 +34,8 @@ The matrix is is iterated through the top, bottom and diagonal parts of the matr
 To solve the Seasonal War problem the ones (1) in the image must not touch each other, or have any adject ones next to it. At that point it is considered a war eagle. 
 ## Thoughs:
 I didn't write this. Source is [here]().......
-There were too many components to account for, it was difficult to even under the code.
+
+There were too many components to account for, it was difficult to even under the code. Not only did you had to check if the nodes were visited or not but you also had to find out whether there is an eagle to the left, right, top or bottom of another. This would cause condition after condition to develop. Hence the multitude of "if" statements. 
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
