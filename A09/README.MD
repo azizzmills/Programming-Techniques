@@ -4,7 +4,12 @@ After matrix is made, the index for matrix array is checked to verify a "node" h
 For example:
 
 1 0 0 1
-1 1 0 0r 0 0 1 0r 0 1 1 1r
+
+1 1 0 0
+
+0 0 1 0
+
+0 1 1 1
 
 the function would begin at (0,0) marking all non visited nodes (or all 1) to visited (or 0)
 eventually based on the node you are looking for all of them would be 0. For this example if you are looking for 
