@@ -1,1 +1,78 @@
-sjbds
+
+#include <cstdio>
+#include <iostream>
+#define DFS_WHITE -1
+#define DFS_BLACK 1
+#define NODES 26
+using namespace std;
+int matriz[NODES][NODES], dfs_matriz[NODES][NODES];
+int dimension;
+
+// This function reads in string characterrs and concatenates them to form a single string. 
+//It then stores them in the "matriz" array based on the characters in the string 
+
+void readGraph(int dim) {
+  string tmp = "", str;
+  int index = 0;
+  for (int z = 0; z < dim; z++) {
+    cin >> str;
+    tmp += str;
+  }
+  for (int x = 0; x < dim; x++) {
+    for (int y = 0; y < dim; y++, index++) {
+      matriz[x][y] = tmp[index] - '0';
+      if (matriz[x][y] == 1)
+        dfs_matriz[x][y] = DFS_WHITE;
+      else
+        dfs_matriz[x][y] = 0;
+    }
+  }
+}
+
+// This function implements a depth-first search algorithm to traverse the connected components in the binary image. It recursively explores adjacent cells and marks visited cells in the dfs_matriz array.
+
+void dfs(int x, int y) {
+  dfs_matriz[x][y] = DFS_BLACK;
+  int a = x, b = y;
+  // top part of the matrix
+  if (a - 1 >= 0) {
+    if (dfs_matriz[a - 1][b] == DFS_WHITE)
+      dfs(a - 1, b);
+    if (b + 1 < dimension && dfs_matriz[a - 1][b + 1] == DFS_WHITE)
+      dfs(a - 1, b + 1);
+    if (b - 1 >= 0 && dfs_matriz[a - 1][b - 1] == DFS_WHITE)
+      dfs(a - 1, b - 1);
+  }
+  // bottom part of the matrix
+  if (a + 1 < dimension) {
+    if (b + 1 < dimension && dfs_matriz[a + 1][b + 1] == DFS_WHITE)
+      dfs(a + 1, b + 1);
+    if (b - 1 >= 0 && dfs_matriz[a + 1][b - 1] == DFS_WHITE)
+      dfs(a + 1, b - 1);
+    if (dfs_matriz[a + 1][b] == DFS_WHITE)
+      dfs(a + 1, b);
+  }
+  // right and left neighbours
+  if (b - 1 >= 0 && dfs_matriz[a][b - 1] == DFS_WHITE)
+    dfs(a, b - 1);
+  if (b + 1 < dimension && dfs_matriz[a][b + 1] == DFS_WHITE)
+    dfs(a, b + 1);
+}
+
+int main() {
+  int cc, casos = 1;
+  while (scanf("%d", &dimension) != EOF) {
+    readGraph(dimension);
+    cc = 0;
+    for (int x = 0; x < dimension; x++) {
+      for (int y = 0; y < dimension; y++) {
+        if (matriz[x][y] == 1 && dfs_matriz[x][y] == DFS_WHITE) {
+          dfs(x, y);
+          cc++;
+        }
+      }
+    }
+    printf("Image number %d contains %d war eagles.\n", casos++, cc);
+  }
+  return 0;
+}
