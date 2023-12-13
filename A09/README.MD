@@ -1,4 +1,4 @@
-# This folder contains the solution for the Hardwood Species Problem
+# This folder contains the solution for the Seasonal War Problem
 ## Approach:
 To solve this problem you msut first understand how the dfs function works. 
 The "dfs" function explaination:
@@ -33,13 +33,14 @@ The matrix is is iterated through the top, bottom and diagonal parts of the matr
 
 To solve the Seasonal War problem the ones (1) in the image must not touch each other, or have any adject ones next to it. At that point it is considered a war eagle. 
 ## Thoughs:
-It's a good program. It teaches students to utilze maps. 
+I didn't write this. Source is [here]().......
+There were too many components to account for, it was difficult to even under the code.
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
-|  1 | [Main](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A06/code) | Main driver of my program which solves problem. |
-|  2 | [Input](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A06/input) | Input |
-|  3 | [PDF](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A06/p10226.pdf) | Problem statement and guidelines  |
+|  1 | [Main]() | Main driver of my program which solves problem. |
+|  2 | [Input]() | Input |
+|  3 | [PDF]() | Problem statement and guidelines  |
 
 
 
