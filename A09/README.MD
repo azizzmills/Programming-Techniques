@@ -38,9 +38,9 @@ There were too many components to account for, it was difficult to even under th
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
-|  1 | [Main]() | Main driver of my program which solves problem. |
+|  1 | [Main](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A09/code) | Main driver of my program which solves problem. |
 |  2 | [Input]() | Input |
-|  3 | [PDF]() | Problem statement and guidelines  |
+|  3 | [PDF](https://github.com/azizzmills/Programming-Techniques/blob/2143-OOP-Mills/A09/p352.pdf) | Problem statement and guidelines  |
 
 
 
