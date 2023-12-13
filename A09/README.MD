@@ -27,3 +27,5 @@ eventually based on the node you are looking for all of them would be 0. For thi
 If the neighbor is within the matrix bounds and has not been visited (DFS_WHITE), a recursive call to dfs is made with the new coordinates.
 
 The matrix is is iterated through the top, bottom and diagonal parts of the matrix (as described in the code comments).
+
+To solve this problem the ones in the image must not touch each other, or have any adject ones next to it. At that point it is considered a war eagle. 
