@@ -32,7 +32,7 @@ If the neighbor is within the matrix bounds and has not been visited (DFS_WHITE)
 
 The matrix is is iterated through the top, bottom and diagonal parts of the matrix (as described in the code comments).
 
-To solve the Seasonal War problem the ones (1) in the image must not touch each other, or have any adject ones next to it. At that point it is considered a war eagle. 
+To solve the Seasonal War problem, the ones (1) in the image must not touch each other, or have any adject ones next to it. At that point it is considered a war eagle. They are then tallied up and displayed. As well as the amount of images tested.
 ## Thoughs:
 I didn't write this. Source is [here]().......
 
