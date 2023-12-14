@@ -6,7 +6,7 @@ he has. Separate equally the amounts between each friend. There will come a time
 ### if you dont understand then the comments in the code has a better example.
 
 ## Thoughts:
-
+It wasn't a bad program. However, trying to figure out how to simultaneously use and uptdate the values of the amounts given and received were difficult. 
 
 
 |   #   | File |  Description |
