@@ -1,6 +1,7 @@
 # This folder contains the solution for the Seasonal War Problem
 ## Approach:
-To solve this problem you msut first understand how the dfs function works. 
+To solve this problem you must first understand how the "dfs" function works. 
+
 The "dfs" function explaination:
 
 After "readGraph" function has read in the input. dfs deals with the matrix. 
