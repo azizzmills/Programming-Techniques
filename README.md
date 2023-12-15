@@ -15,4 +15,4 @@ To introduce and develop the competitive coding styles and techiques. Creating m
 |  7    |     [A08](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/A08)    | Commandos |
 |  8    |     [A09](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/A09)    | Seasonal War |
 |  9    |     [A10](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/A10)    | Greedy Gift Givers |
-|  10    |     [A11](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/A11)    | First banner page homework |
+|  10    |     [A11](https://github.com/azizzmills/Programming-Techniques/tree/2143-OOP-Mills/A11)    | Racing |
