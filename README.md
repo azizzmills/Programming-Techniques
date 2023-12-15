@@ -1,5 +1,7 @@
-# Programming-Techniques
-This repository contains competitive coding styles and techniques.
+# Class 4883 - Programming-Techniques
+## Professor - Terry Griffin 
+## Purpose:
+To introduce and develop the competitive coding styles and techiques. Creating more robust, effective and efficent programs. 
 ##  Assignments Folder
 
 |   #   | Folder Link | Assignment Description |
