@@ -1,6 +1,6 @@
 # Class 4883 - Programming-Techniques
-## Professor - Terry Griffin 
-## Purpose:
+## Azizz Mills  
+## Description:
 To introduce and develop the competitive coding styles and techiques. Creating more robust, effective and efficent programs. 
 ##  Assignments Folder
 
