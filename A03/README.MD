@@ -1,6 +1,8 @@
 # UVA 1005 - Hashmat Brave Warrior
 ## Approach:
 The approach was simple. Write code that receives input and substracts the enemy soilders from that of the hashmat
+## Warning:
+This code is not accepted be Online Judge. The input is from udebug, please use it tor verify the output. 
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
