@@ -1,4 +1,4 @@
-# This folder contains the solution for the Hardwood Species Problem
+# UVA 10226 - Hardwood Species Problem
 ## Approach:
 The point of this program was to count the amount of trees of each type and recive a percnet based on the overall amount. 
 To simplify a map was used to store and simultaneously count (while in the loop) the trees. When the file reaches its end it breaks out of the loop (atleast for the first test case) it then iterates through the map and prints out the results. 
