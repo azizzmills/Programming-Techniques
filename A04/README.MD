@@ -1,4 +1,5 @@
 # This folder contains solutions to the online judge easy breezy coding problems. 
+## they have all been accepted by online judge.
 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
