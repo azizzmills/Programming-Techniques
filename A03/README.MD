@@ -1,4 +1,4 @@
-# This folder contains the solution for the Hashmat Brave Warrior Problem
+# UVA 1005 - Hashmat Brave Warrior
 ## Approach:
 The approach was simple. Write code that receives input and substracts the enemy soilders from that of the hashmat
 
