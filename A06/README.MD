@@ -4,6 +4,8 @@ The point of this program was to count the amount of trees of each type and reci
 To simplify a map was used to store and simultaneously count (while in the loop) the trees. When the file reaches its end it breaks out of the loop (atleast for the first test case) it then iterates through the map and prints out the results. 
 ## Thoughs:
 It's a good program. It teaches students to utilze maps. 
+## Warning:
+This code is not accepted be Online Judge. The input is from udebug, please use it tor verify the output.
 
 |   #   | File |  Description |
 | :---: | ----------- | ---------------------- |
